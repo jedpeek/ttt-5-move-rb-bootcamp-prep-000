@@ -7,4 +7,5 @@ puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go?"
 user_input = gets.strip.to_i
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+move(array, index, value)
 input_to_index(user_input)
